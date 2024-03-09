@@ -1,0 +1,35 @@
+body {
+    background-color: #eaeaea;
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+    top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        box-shadow: none;
+        background-color: #eaeaea;
+    }
+
+    body {
+        background-color: #eaeaea;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .container {
+        width: 60%;
+        position: relative;
+        top: 150px;
+    }
+}
